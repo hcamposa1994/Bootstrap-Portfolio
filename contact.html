@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap-HW</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Herbert Campos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+     <div class="card">
+        <h5 class="card-header">Contact</h5>
+        <div class="card-body">
+          <h5 class="card-title">Name</h5>
+          <form>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+              </form>
+
+          <h5 class="card-title">Email</h5>
+        <form>
+            <div class="form-group row">
+                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Please enter a valid email:</label>
+                <div class="col-md-10">
+                    <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+                </div>
+            </div> 
+        </form>         
+          <form class="was-validated">
+            <div class="mb-3">
+              <label for="validationTextarea">Message</label>
+              <textarea class="form-control is-invalid" id="validationTextarea" placeholder="..." required></textarea>
+              <div class="invalid-feedback">
+                Please enter a message
+              </div>
+            </div>
+            </form>
+        </div>
+
+        <button type="button" class="btn btn-outline-primary">Submit</button>
+    
+</body>
+
+</html>
